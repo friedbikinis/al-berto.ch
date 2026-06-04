@@ -37,3 +37,41 @@
   padding: 30px 20px;
   text-align: center;
 }
+
+.gig-title {
+  padding-left: 20px;
+  text-align: left;
+}
+.table-container {
+  padding-left: 13px;
+  overflow-x: auto; /* Wichtig: Ermöglicht Scrollen, wenn die Tabelle zu breit wird */
+  /* width: 100%; */
+}
+.gig-table {
+  width: auto; /* WICHTIG: Nicht 100%, sondern nur so breit wie nötig */
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  /* Optional: Verhindert, dass die Tabelle auf kleinen Schirmen gequetscht wird */
+  /* min-width: 100%; */ 
+}
+.gig-table td {
+  padding: 1px 6px;
+  vertical-align: center;
+  border-bottom: 1px solid #eee; 
+  white-space: nowrap; /* WICHTIG: Verhindert Zeilenumbruch innerhalb der Zelle -> maximale Kompaktheit */
+}
+.gig-id {
+  font-size: 0.8em;
+  color: #666;
+  text-align: left;
+  /* width: 50px;  */
+  white-space: nowrap;
+}
+.gig-date {
+  font-size: 1em;
+  text-align: right;
+}
+.gig-info {
+  font-size: 1em;
+  text-align: left;
+}
